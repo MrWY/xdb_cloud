@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods/index",
+    "pages/cart/index",
+    "pages/order/confirm/index",
+    "pages/order/detail/index",
+    "pages/order/list/index",
+    "pages/user/index",
+    "pages/address/list/index",
+    "pages/address/add/index",
+    "pages/address/confirm/index",
+    "pages/address/edit/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#5f616c",
+    "selectedColor": "#f13030",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "产品",
+        "iconPath": "./icons/home.png",
+        "selectedIconPath": "./icons/homeSelected.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "订单",
+        "iconPath": "./icons/cart.png",
+        "selectedIconPath": "./icons/cartSelected.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "./icons/mine.png",
+        "selectedIconPath": "./icons/mineSelected.png"
+      }
+    ]
+  }
+}
